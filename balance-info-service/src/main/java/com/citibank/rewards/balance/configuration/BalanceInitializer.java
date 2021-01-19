@@ -16,7 +16,7 @@ public class BalanceInitializer extends AbstractAnnotationConfigDispatcherServle
   
     @Override
     protected String[] getServletMappings() {
-        return new String[] { "/context" };
+        return new String[] { "/path" };
     }
  
 }
