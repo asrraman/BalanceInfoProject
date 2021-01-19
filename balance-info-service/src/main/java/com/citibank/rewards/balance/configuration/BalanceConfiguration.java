@@ -5,8 +5,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
-@EnableWebMvc // load all required spring mvc annotations
-@ComponentScan(basePackages = "com.citibank.rewards.balance.controller")
+@EnableWebMvc // load all required spring mvc annotations 
+@ComponentScan(basePackages = "com.citibank.rewards.balance.controller") // Package controller
 public class BalanceConfiguration {
 
 }
